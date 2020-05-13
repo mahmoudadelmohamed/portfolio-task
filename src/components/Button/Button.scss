@@ -1,0 +1,53 @@
+@import "../../scss/variables";
+button.btn {
+  box-shadow: $box-shadow-sm;
+  transition: $transition;
+  padding: 0.5rem 1.6rem;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem !important;
+  font-family: $regular;
+  &:hover {
+    box-shadow: none;
+    outline: 0;
+  }
+  &:active,
+  &:visited {
+    background-color: $primary !important;
+    color: $offwhite !important;
+  }
+}
+.btn.btn-outline-primary {
+    transition: $transition;
+  box-shadow: none;
+  color: $offwhite;
+  background: $primary;
+  border-color: $primary;
+  box-shadow: $box-shadow-sm;
+}
+.btn.btn-outline-pages {
+  box-shadow: none;
+  color: $offwhite;
+  border-color: $primary;
+  background: $primary;
+  &:hover {
+    background: $offwhite;
+    color: $primary;
+    border-color: currentColor;
+    box-shadow: $box-shadow-sm;
+  }
+}
+.btn.btn-outline-secondary {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+  color: $disabledGray;
+  &:hover {
+    transform: none;
+    border-color: $disabledGray;
+    background-color: transparent;
+    color: $disabledGray;
+  }
+}

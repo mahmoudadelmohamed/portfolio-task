@@ -1,0 +1,34 @@
+@import '../../scss/variables';
+.img-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+
+}
+.card {
+  border-radius: 1rem;
+  overflow: hidden;
+  border: none;
+}
+.image_card {
+  transition: $transition;
+  border-radius: 1rem;
+  opacity: 1;
+}
+.img-container:hover .image_card {
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+.card-item-icon {
+ position: absolute;
+ font-size: 4rem;
+ top: 60%;
+ left: 55%;
+ text-decoration: none;
+ transform: scale(0);
+}
+.img-container:hover .card-item-icon {
+   transform: translate(-50%, -50%) scale(1) ;
+ }

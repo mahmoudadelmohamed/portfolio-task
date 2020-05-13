@@ -1,0 +1,46 @@
+@import "../../scss/variables";
+/*Navbar Style*/
+.navbar {
+  background: $primary-light;
+}
+.navbar-nav {
+  margin-left: 0.5rem;
+  height: 30%;
+  margin-right: 1rem;
+}
+.nav-link {
+  height: auto;
+  display: flex;
+  margin-left: 1rem;
+  color: $offwhite !important;
+  font-family: $regular !important;
+}
+@media screen and (max-width:768px) {
+    .content-header {
+      width: 100%;
+      margin: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    width: 90%;
+  }
+  .nav-link{
+    font-size: 0.9rem;
+
+    padding: 0.5rem 0;
+  }
+}
+.toggle_button {
+  margin-top: 0.3rem;
+  background: $primary;
+  border: none;
+}
+.light_icon {
+  font-size: $medium-bold;
+  color: #FFFF00;
+}
+.dark_icon {
+  font-size: $medium-bold;
+  color: $offwhite;
+}
