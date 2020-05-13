@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import logo from '../../assets/images/logo1.png';
 import { Navbar as Nav } from "react-bootstrap";
 import { FaRegSun, FaMoon  } from 'react-icons/fa';
-
-
 import { HashLink as Link } from 'react-router-hash-link';
 import "./Navbar.scss";
 class Navbar extends Component {

@@ -1,19 +1,19 @@
 @import "../../scss/variables";
 .max-height {
-  min-height:calc(100vh - 90px);
+  min-height: calc(100vh - 90px);
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-  url('../../assets/images/background2.jpg')center/cover no-repeat fixed;
+    url("../../assets/images/background2.jpg") center/cover no-repeat fixed;
   position: relative;
 }
 .banner-title {
-   color: $offwhite;
-   font-family: $regular;
-   width: 80%;
-   font-size: $large-light;
-   height: 150px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  color: $offwhite;
+  font-family: $regular;
+  width: 80%;
+  font-size: $large-light;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-link-content {
   display: flex;
@@ -25,33 +25,32 @@
   bottom: 30px;
 }
 .content-main-header {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   margin: 2rem;
   padding: 2rem;
   border-radius: 0.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-@media screen and (max-width:768px) {
-    .banner-title {
-      width: 100%;
-      margin: auto;
-      font-size: $medium-bold;
-    }
-    .header-link-content {
-      position: absolute;
-      left: 10px;
-      right: 50px;
-      bottom: 5px;
-    }
+@media screen and (max-width: 768px) {
+  .banner-title {
+    width: 100%;
+    margin: auto;
+    font-size: $medium-bold;
+  }
+  .header-link-content {
+    position: absolute;
+    left: 10px;
+    right: 50px;
+    bottom: 5px;
+  }
 }
 .header-link {
-  color: #FFF;
+  color: #fff;
   font-size: 2rem;
   transition: all 1s ease;
-  animation:fromBottom;
+  animation: fromBottom;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
@@ -61,10 +60,10 @@
     transform: translateY(-10px);
   }
   50% {
-     transform: translateY(10px);
+    transform: translateY(10px);
   }
   100% {
-     transform: translateY(-10px);
+    transform: translateY(-10px);
   }
 }
 .up-link {
@@ -75,9 +74,9 @@
   font-size: 1rem;
   width: 50px;
   color: $offwhite !important;
-  border: 0.2rem solid $primary;
-  background: $primary;
-  transition: all .5s linear;
+  border: 0.2rem solid #000;
+  background: #000;
+  transition: all 0.5s linear;
   border-radius: 30%;
   padding: 0.2rem;
   display: none;
@@ -86,6 +85,6 @@
   display: block;
 }
 .up-link .fas {
-  margin-left:  -8px;
+  margin-left: -8px;
   font-size: 1.3rem;
 }

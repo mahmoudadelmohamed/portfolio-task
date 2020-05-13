@@ -3,11 +3,11 @@
 /* about */
 .about-img-container {
   position: relative;
-   width: 95%;
-   box-shadow: $box-shadow;
+  width: 95%;
+  box-shadow: $box-shadow;
 }
 .about-img-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -1.5rem;
   left: -1.7rem;
@@ -15,7 +15,7 @@
   height: 100%;
   outline: 0.5rem solid $primary;
   z-index: -1;
-  transition: all .5s linear;
+  transition: all 0.5s linear;
 }
 .about-img-container:hover:before {
   top: 0;
