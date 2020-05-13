@@ -25,4 +25,9 @@ this section has my contacts
 ## Details page 
 this page can show more details about project like (name. data that project was done, techologies and tools, overview of project and links of github to show source code and live project)
 
+### Built With
+### React js
+### React Bootstrap
+### SASS
+### Git
 
